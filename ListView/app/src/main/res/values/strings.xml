@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">ListView</string>
+    <string-array name="moble_name">
+        <item>Android</item>
+        <item>IPhone</item>
+        <item>WindowsMobile</item>
+        <item>Blackberry</item>
+        <item>WebOS</item>
+        <item>Ubuntu</item>
+        <item>Ubuntu</item>
+        <item>Ubuntu</item>
+        <item>Ubuntu</item>
+        <item>Ubuntu</item>
+        <item>Ubuntu</item>
+        <item>Ubuntu</item>
+        <item>Ubuntu</item>
+        <item>Ubuntu</item>
+        <item>Ubuntu</item>
+        <item>Ubuntu</item>
+        <item>Ubuntu</item>
+        <item>Ubuntu</item>
+        <item>Ubuntu</item>
+    </string-array>
+</resources>

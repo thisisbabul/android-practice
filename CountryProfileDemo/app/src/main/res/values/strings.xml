@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">CountryProfileDemo</string>
+    <string name="bangladesh">Bangladesh is one of the worlds most densely populated countries, with its people crammed into a delta of
+rivers that empties into the Bay of Bengal. Poverty is deep and widespread, but Bangladesh has in recent
+years reduced population growth and improved health and education. Formerly East Pakistan, Bangladesh came
+into being only in 1971, when the two parts of Pakistan split after a bitter war which drew in neighbouring
+India. Bangladesh spent 15 years under military rule and, although democracy was restored in 1990, the
+political scene remains volatile. Islamist extremism has been rising in the usually tolerant country. The
+low-lying country is vulnerable to flooding and cyclones, and stands to be badly affected by any rises in
+sea levels.</string>
+
+    <string name="india">India is the worlds largest democracy and according to UN estimates, its population is expected to overtake
+Chinas in 2028 to become the worlds most populous nation. As a rising economic powerhouse and nuclear-
+armed state, India has emerged as an important regional power. But it is also tackling huge, social,
+economic and environmental problems.Home to some of the world' s most ancient surviving civilizations, the
+Indian subcontinent - from the mountainous Afghan frontier to the jungles of Burma - is both vast and
+diverse in terms of its people, language and cultural traditions.</string>
+
+    <string name="pakistan">Pakistan, officially the Islamic Republic of Pakistan, is a country in South Asia. It is the fifth-most populous country with a population exceeding 209,970,000 people.</string>
+</resources>

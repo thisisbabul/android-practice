@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="com.example.babul.countryprofile.MainActivity">
+
+    <AnalogClock
+        android:layout_marginBottom="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+  <Button
+      android:drawableLeft="@drawable/bangladeshicon"
+      android:text="Bangladesh"
+      android:id="@+id/bangladeshButtonId"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content" />
+
+    <Button
+        android:drawableLeft="@drawable/indiaicon"
+        android:text="India"
+        android:id="@+id/indiaButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:drawableLeft="@drawable/pakistanicon"
+        android:text="Pakistan"
+        android:id="@+id/pakistanButtonId"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

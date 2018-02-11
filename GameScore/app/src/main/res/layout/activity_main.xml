@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/colorAccent"
+    tools:context="com.example.babul.gamescore.MainActivity">
+
+    <TextView
+        android:id="@+id/scoreTextViewId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/increaseButtonId"
+        android:textAllCaps="false"
+        android:text="Increase score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/decreaseButtonId"
+        android:textAllCaps="false"
+        android:text="Decrease score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">SearchView</string>
+    <string-array name="countryNames">
+        <item>Afghanistan</item>
+        <item>Albania</item>
+        <item>Bangladesh</item>
+        <item>Barbados</item>
+        <item>Belarus</item>
+        <item>Belgium</item>
+        <item>Belize</item>
+        <item>Benin</item>
+        <item>Bhutan</item>
+        <item>Bolivia</item>
+        <item>Botswana</item>
+        <item>Brazil</item>
+        <item>Brunei</item>
+        <item>Bulgaria</item>
+        <item>Burkina Faso</item>
+        <item>Burma</item>
+        <item>Burundi</item>
+        <item>India</item>
+        <item>Pakistan</item>
+    </string-array>
+</resources>
