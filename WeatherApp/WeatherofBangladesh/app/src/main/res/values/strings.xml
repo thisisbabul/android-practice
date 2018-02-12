@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Weather of Bangladesh</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_internet_status">InternetStatus</string>
+    <string name="title_activity_dhaka">Weather in Dhaka</string>
+    <string name="title_activity_mymensingh">Mymensingh</string>
+    <string name="title_activity_chittagong">Chittagong</string>
+    <string name="title_activity_sylhet">Sylhet</string>
+    <string name="title_activity_rangpur">Rangpur</string>
+    <string name="title_activity_rajshahi">Rajshahi</string>
+    <string name="title_activity_khulna">Khulna</string>
+    <string name="title_activity_barisal">Barisal</string>
+</resources>

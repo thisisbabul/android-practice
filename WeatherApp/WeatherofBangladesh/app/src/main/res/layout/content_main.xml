@@ -1,0 +1,651 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40dp"
+    android:id="@+id/scrollView"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="babul.bitm.com.weatherofbangladesh.MainActivity"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="#131313">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Place !"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:textColor="#FFFFFF"
+        android:id="@+id/textView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:id="@+id/tvError" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:background="#EAB96E"
+        android:padding="10dp"
+        android:onClick="dhaka">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <WebView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/wvDhaka"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="17"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:id="@+id/tvDhakaTemperature"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Division"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:id="@+id/tvDhakaDivision"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Country"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:id="@+id/tvDhakaCountry" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="12:30 PM"
+                android:gravity="right"
+                android:textColor="#FFFFFF"
+                android:id="@+id/tvDhakaTime" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:background="#B6ABA8"
+        android:padding="10dp"
+        android:onClick="mymensingh"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <WebView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/wvMymensingh"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="17"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:id="@+id/tvMymensinghTemperature"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Division"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:id="@+id/tvMymensinghDivision"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Country"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:id="@+id/tvMymensinghCountry" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="12:30 PM"
+                android:gravity="right"
+                android:textColor="#FFFFFF"
+                android:id="@+id/tvMymensinghTime" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:background="#FAFAFA"
+        android:padding="10dp"
+        android:onClick="chittagong"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <WebView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/wvChittagong"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="17"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:id="@+id/tvChittagongTemperature"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Division"
+                    android:textStyle="bold"
+                    android:id="@+id/tvChittagongDivision"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Country"
+                    android:textStyle="bold"
+                    android:id="@+id/tvChittagongCountry" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="12:30 PM"
+                android:gravity="right"
+                android:id="@+id/tvChittagongTime" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:background="#455A64"
+        android:padding="10dp"
+        android:onClick="sylhet"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <WebView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/wvSylhet"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="17"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:id="@+id/tvSylhetTemperature"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Division"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:id="@+id/tvSylhetDivision"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Country"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:id="@+id/tvSylhetCountry" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="12:30 PM"
+                android:gravity="right"
+                android:textColor="#FFFFFF"
+                android:id="@+id/tvSylhetTime" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:background="#EAB96E"
+        android:padding="10dp"
+        android:onClick="rangpur"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <WebView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/wvRangpur"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="17"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:id="@+id/tvRangpurTemperature"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Division"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:id="@+id/tvRangpurDivision"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Country"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:id="@+id/tvRangpurCountry" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="12:30 PM"
+                android:gravity="right"
+                android:textColor="#FFFFFF"
+                android:id="@+id/tvRangpurTime" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:background="#B6ABA8"
+        android:padding="10dp"
+        android:onClick="rajshahi"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <WebView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/wvRajshahi"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="17"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:id="@+id/tvRajshahiTemperature"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Division"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:id="@+id/tvRajshahiDivision"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Country"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:id="@+id/tvRajshahiCountry" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="12:30 PM"
+                android:gravity="right"
+                android:textColor="#FFFFFF"
+                android:id="@+id/tvRajshahiTime" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:background="#FAFAFA"
+        android:padding="10dp"
+        android:onClick="khulna"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <WebView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/wvKhulna"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="17"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:id="@+id/tvKhulnaTemperature"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Division"
+                    android:textStyle="bold"
+                    android:id="@+id/tvKhulnaDivision"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Country"
+                    android:textStyle="bold"
+                    android:id="@+id/tvKhulnaCountry" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="12:30 PM"
+                android:gravity="right"
+                android:id="@+id/tvKhulnaTime" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="125dp"
+        android:background="#455A64"
+        android:padding="10dp"
+        android:onClick="barisal"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <WebView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/wvBarisal"/>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:textColor="#FFFFFF"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="17"
+                android:textSize="35dp"
+                android:textStyle="bold"
+                android:gravity="right"
+                android:id="@+id/tvBarisalTemperature"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="5dp">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textAppearance="?android:attr/textAppearanceLarge"
+                    android:text="Division"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:id="@+id/tvBarisalDivision"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Country"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:id="@+id/tvBarisalCountry" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="12:30 PM"
+                android:gravity="right"
+                android:textColor="#FFFFFF"
+                android:id="@+id/tvBarisalTime" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+</ScrollView>
