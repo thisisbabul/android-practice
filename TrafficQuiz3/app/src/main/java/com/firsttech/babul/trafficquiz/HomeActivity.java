@@ -1,0 +1,24 @@
+package com.firsttech.babul.trafficquiz;
+
+import android.content.Intent;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.view.View;
+
+public class HomeActivity extends AppCompatActivity {
+
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_home);
+    }
+    public void starQuiz(View view){
+        startActivity(new Intent(this, AllLevelActivity.class));
+    }
+    public void trafficRules(View view){
+        startActivity(new Intent(this,LearnAboutTrafficRulesActivity.class));
+    }
+    public void casesOfRoadAccident(View view){
+        startActivity(new Intent(this,CasesAccidentActivity.class));
+    }
+}

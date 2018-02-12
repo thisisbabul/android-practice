@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.firsttech.babul.trafficquiz.HomeActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/backgroundfinal">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ট্রাফিক চিহ্ন ও নিয়ম জানুন"
+        android:id="@+id/button2"
+        android:background="#6A7184"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textAllCaps="false"
+        android:onClick="trafficRules" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="সড়ক দূর্ঘটনার কারণ সমুহ"
+        android:background="#6A7184"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:id="@+id/casesOfRoadAccident"
+        android:onClick="casesOfRoadAccident"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="যোগ্যতা যাচাই করুন"
+        android:textAllCaps="false"
+        android:id="@+id/button"
+        android:background="#6A7184"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:layout_marginTop="20dp"
+        android:onClick="starQuiz"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

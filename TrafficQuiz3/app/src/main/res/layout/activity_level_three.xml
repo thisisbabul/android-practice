@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.firsttech.babul.trafficquiz.LevelThreeActivity"
+    android:orientation="vertical"
+    android:background="@drawable/backgroundfinal">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="১.নিচে প্রতীক কি নির্দেশ করে?"
+            android:id="@+id/textView" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nocattle"
+            android:layout_gravity="center"
+            android:id="@+id/textView2" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rLthreeQonePoshu"
+                android:text="পশুবাহিত যান চলাচল নিষেধ ।"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rLthreeQonePothcari"
+                android:text="পথচারী চলাচল নিষেধ ।"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rLthreeQoneRicksha"
+                android:text="রিকশা চলাচল নিষেধ ।"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rLthreeQoneCycle"
+                android:text="সাইকেল চলাচল নিষেধ ।"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_marginTop="30dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="২.নিচে প্রতীক কি নির্দেশ করে?"
+            android:id="@+id/QTwo" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/nostoping"
+            android:layout_gravity="center"
+            android:id="@+id/textView3" />
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rLthreeQtwoOvertaking"
+                android:text="ওভারটেকিং নিষেধ ।"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rLthreeQtwoOtikrom"
+                android:text="না থেমে অতিক্রম করা নিষেধ ।"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rLthreeQtwoMor"
+                android:text="মোড় নেওয়া নিষেধ ।"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rLthreeQtwoHorn"
+                android:text="হর্ন বাজানো নিষেধ ।"/>
+        </RadioGroup>
+
+    </LinearLayout>
+
+</LinearLayout>

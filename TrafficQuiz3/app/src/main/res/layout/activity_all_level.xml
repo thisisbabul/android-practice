@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.firsttech.babul.trafficquiz.AllLevelActivity"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@drawable/backgroundfinal">
+
+    <Button
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:text="ধাপ-১"
+        android:id="@+id/button3"
+        android:onClick="levelOne"
+        android:background="#6A7184"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:text="ধাপ-২"
+        android:layout_marginTop="20dp"
+        android:id="@+id/button4"
+        android:onClick="levelTwo"
+        android:background="#6A7184"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="177dp"
+        android:layout_height="wrap_content"
+        android:text="ধাপ-৩"
+        android:layout_marginTop="20dp"
+        android:id="@+id/button5"
+        android:background="#6A7184"
+        android:textColor="#FFFFFF"
+        android:textSize="25sp"
+        android:onClick="LevelThree"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
