@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp"
+    android:background="#A4DCF8"
+    tools:context="com.example.babul.calculatortest.MainActivity">
+
+    <LinearLayout
+        android:background="@drawable/customborder"
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp">
+
+        <LinearLayout
+            android:gravity="center"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+           <LinearLayout
+               android:layout_weight="2.3"
+               android:layout_width="0dp"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:textStyle="bold"
+                   android:textSize="20sp"
+                   android:text="Score:"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+
+               <TextView
+                   android:id="@+id/scoreTextViewId"
+                   android:textStyle="bold"
+                   android:textSize="20sp"
+                   android:text="0"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content" />
+
+           </LinearLayout>
+
+            <Button
+                android:layout_marginLeft="120dp"
+                android:background="@drawable/facebook"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="40dp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/randomNumberId"
+            android:textColor="#7CB342"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="30sp"
+            android:text="42"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <GridView
+            android:listSelector="@color/colorAccent"
+            android:numColumns="6"
+            android:id="@+id/gridViewId"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"></GridView>
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/changeButtonId"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:src="@drawable/change"
+        android:layout_width="200dp"
+        android:layout_height="50dp" />
+
+</LinearLayout>
