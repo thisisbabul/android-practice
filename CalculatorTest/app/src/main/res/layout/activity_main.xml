@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
@@ -7,6 +11,7 @@
     android:orientation="vertical"
     android:padding="15dp"
     android:background="#A4DCF8"
+    android:gravity="center"
     tools:context="com.example.babul.calculatortest.MainActivity">
 
     <LinearLayout
@@ -15,7 +20,8 @@
         android:orientation="vertical"
         android:layout_marginTop="50dp"
         android:layout_width="match_parent"
-        android:layout_height="300dp">
+        android:gravity="center"
+        android:layout_height="350dp">
 
         <LinearLayout
             android:gravity="center"
@@ -65,11 +71,21 @@
             android:layout_height="wrap_content" />
 
         <GridView
+            android:layout_gravity="center"
             android:listSelector="@color/colorAccent"
-            android:numColumns="6"
+            android:numColumns="8"
             android:id="@+id/gridViewId"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"></GridView>
+            android:layout_height="wrap_content"></GridView>
+
+        <GridView
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:listSelector="@drawable/change"
+            android:numColumns="7"
+            android:id="@+id/buttonGridViewId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></GridView>
 
     </LinearLayout>
 
@@ -82,3 +98,4 @@
         android:layout_height="50dp" />
 
 </LinearLayout>
+</ScrollView>
